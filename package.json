@@ -4,6 +4,7 @@
   "description": "B2C msal node app allowing end users to sign in, sign out, update profile, and change password",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
