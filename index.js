@@ -221,7 +221,7 @@ app.get('/redirect',(req, res)=>{
  //</ms_docref_app_endpoints>
 //start app server to listen on set port
  //<ms_docref_start_node_server>
-app.listen(process.env.SERVER_PORT, () => {
-    console.log(`Msal Node Auth Code Sample app listening on port !` + process.env.SERVER_PORT);
+app.listen(process.env.PORT, () => {
+    console.log(`Msal Node Auth Code Sample app listening on port !` + process.env.PORT);
 });
 //</ms_docref_start_node_server>
